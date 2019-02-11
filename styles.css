@@ -52,12 +52,13 @@ header img{
 #iconesHeader div:hover{
     background-color: green;
 }
+
 main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    height: 250px;
+    height: 300px;
 }
 .imagem{
     width: 100px;
@@ -70,6 +71,13 @@ main{
 }
 .imagem img{
     width: 60%;
+}
+main div p:nth-child(2){
+    font-size: 16pt;
+}
+main div p:nth-child(3){
+    color: grey;
+
 }
 
 section{
@@ -86,12 +94,13 @@ section{
 }
 #section p:nth-child(1){
     font-size: 18pt;
-text-align: center;
-width: 50%;;
+    text-align: center;
+    width: 50%;;
 }
 #section p:nth-child(2){
     text-align: center;
     width: 50%;
+    color: gray;
 }
 #section div{
     display: flex;
@@ -130,8 +139,8 @@ width: 50%;;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   align-items: center;
-   font-family: sans-serif;
+    align-items: center;
+    font-family: sans-serif;
 }
 #divBody p:nth-child(1){
     width: 50%;
@@ -154,8 +163,8 @@ width: 50%;;
     width: 90%;
 }
 .pessoa div img:hover{
-   background-color: green;
-   cursor: pointer;
+    background-color: green;
+    cursor: pointer;
 }
 footer{
     background-color: rgb(211, 211, 240);
