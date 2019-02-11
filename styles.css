@@ -181,3 +181,8 @@ footer ul{
     align-items: center;
     color: gray;
 }
+@media(max-width:768px){
+    header{
+        height: 281px;
+    }
+}
