@@ -181,6 +181,14 @@ footer ul{
     align-items: center;
     color: gray;
 }
+@media(max-width:1024px){
+    header{
+        height: auto;
+    }
+    header img:nth-child(2){
+        width: 20%;
+    }
+}
 @media(max-width:768px){
     header{
         height: 281px;
@@ -193,8 +201,11 @@ footer ul{
     header{
         background-size: cover;
     }
-    header img{
+    header img:nth-child(2){
         display: none;
+    }
+    header div h1{
+        text-align: center;
     }
     #divHeader p{
         align-self: center;
@@ -204,5 +215,17 @@ footer ul{
     #iconesHeader{
         width: 200px;
         justify-content: space-between;
+    }
+    main{
+        justify-content: space-around;
+        align-items: center;
+    }
+    main div{
+        width: 100px;
+    }
+    footer ul{
+        width: 90%;
+        justify-content: space-between;
+        padding: 0;
     }
 }
