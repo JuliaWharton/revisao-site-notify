@@ -157,13 +157,12 @@ section{
 }
 .pessoa div{
     padding: 1px;
-    width: 30%
+    width: 30%;
 }
 .pessoa div img{
     width: 90%;
 }
 .pessoa div img:hover{
-    background-color: green;
     cursor: pointer;
 }
 footer{
@@ -222,6 +221,31 @@ footer ul{
     }
     main div{
         width: 100px;
+    }
+    section{
+        height: 700px;
+        justify-content: space-evenly;
+    }
+    #section p:nth-child(2){
+        width: 100%;
+    }
+    #section div input{
+        width: 60%;
+    }
+    .pessoa{
+        width: 70%;
+    }
+    .pessoa div:nth-child(1){
+        display: none;
+    }
+    .pessoa div:nth-child(2){
+        display: none;
+    }
+    .pessoa div:nth-child(9){
+        display: none;
+    }
+    .pessoa div:nth-child(10){
+        display: none;
     }
     footer ul{
         width: 90%;
